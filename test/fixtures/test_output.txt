@@ -1,0 +1,9 @@
+Compiling 3 files (.ex)
+warning: variable "owner?" does not exist and is being expanded to "owner?()", please use parentheses to remove the ambiguity or change the variable name
+  lib/runner/worker.ex:23: Runner.Worker.handle_test_results/1
+
+Generated runner app
+..
+
+Finished in 0.04 seconds
+1 doctest, 1 test, 0 failures
