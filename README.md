@@ -1,21 +1,13 @@
 # Runner
 
-**TODO: Add description**
+This is the agent that runs the specs when files change, pushes changes and pulls updated branches from the server.
+
+It should be run in one of the Docker services on the client.
+
+## Building
+
+Create a release using `mix release`.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `runner` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:runner, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/runner](https://hexdocs.pm/runner).
-
+Copy the release directory into your Docker image.
